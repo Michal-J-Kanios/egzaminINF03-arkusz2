@@ -1,0 +1,61 @@
+* {
+    font-family: "Georgia";
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+#rizz {
+    display: flex;
+}
+
+.banner {
+    background-color: #4BA3C7;
+    color: white;
+    height: 80px;
+    font-size: 120%;
+}
+
+.lewy, .prawy {
+    background-color: #EFEFEF;
+    height: 400px;
+    width: 25%;
+}
+
+.srodek {
+    background-color: #90CAF9;
+    height: 400px;
+    width: 50%;
+}
+
+table {
+    margin-left: 10px;
+    width: 90%;
+    border: 1px solid #90CAF9;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #90CAF9;
+}
+
+td:hover {
+    color: #90CAF9;
+}
+
+.footer {
+    background-color: #4BA3C7;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    color: white;
+    height: 80px;
+    font-size: 120%;
+}
+
+input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
